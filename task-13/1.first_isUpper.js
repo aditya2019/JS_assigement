@@ -1,7 +1,7 @@
 function upperletter(str)
 {
    regexp = /^[A-Z]/;
-   
+
    if (regexp.test(str))
     {
       console.log("uppercase");
@@ -13,3 +13,4 @@ function upperletter(str)
 }
 upperletter('Abcd');
 upperletter('abcd');
+
